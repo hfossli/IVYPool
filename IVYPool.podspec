@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name          = "IVYPool"
-    s.version       = "0.1"
+    s.version       = "0.2"
     s.summary       = "A thread safe pool factory for iOS. Store, get and create objects on demand."
     s.homepage      = "https://github.com/hfossli/IVYPool"
     s.license       = {
