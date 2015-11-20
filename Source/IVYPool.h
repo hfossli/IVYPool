@@ -38,10 +38,20 @@
 @property (nonatomic, assign, readwrite) BOOL drainHalfOnMemoryWarning;
 @property (nonatomic, assign, readwrite) NSUInteger capacity;
 
+/*
+ The instances you add, get and create should all be of this class or subclass
+ */
 - (instancetype)initWithClass:(Class)aClass;
 
+/*
+ Create an instance using `createBlock`
+ */
 - (id)create;
 
+/*
+ Add instance to the pool. 
+ It will immediately be accsible with `getLast` or `takeLast`
+ */
 - (BOOL)add:(id)instance;
 
 /*
@@ -62,9 +72,15 @@
 - (id)getFirstInPreferablyMatching:(BOOL(^)(id instance))filter;
 - (id)getLastInPreferablyMatching:(BOOL(^)(id instance))filter;
 
+/*
+ Creates object using `createBlock`
+ */
 - (void)fill;
 - (void)fillTo:(NSUInteger)mark;
 
+/*
+ Removes objects from the pool
+ */
 - (NSArray *)drain;
 - (NSArray *)drainHalf;
 - (NSArray *)drainTo:(NSUInteger)mark;

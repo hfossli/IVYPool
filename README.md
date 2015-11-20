@@ -30,10 +30,20 @@ import IVYPool
 @property (nonatomic, assign, readwrite) NSUInteger capacity;
 ...
 
+/*
+ The instances you add, get and create should all be of this class or subclass
+ */
 - (instancetype)initWithClass:(Class)aClass;
 
+/*
+ Create an instance using `createBlock`
+ */
 - (id)create;
 
+/*
+ Add instance to the pool.
+ It will immediately be accsible with `getLast` or `takeLast`
+ */
 - (BOOL)add:(id)instance;
 
 /*
@@ -55,15 +65,22 @@ import IVYPool
 - (id)getLastInPreferablyMatching:(BOOL(^)(id instance))filter;
 
 /*
- Creates object using
-*/
+ Creates object using `createBlock`
+ */
 - (void)fill;
 - (void)fillTo:(NSUInteger)mark;
 
+/*
+ Removes objects from the pool
+ */
 - (NSArray *)drain;
 - (NSArray *)drainHalf;
 - (NSArray *)drainTo:(NSUInteger)mark;
 ```
+
+## Terminology
+
+If `a` and `b` were added to the pool. `firstIn` refers `a` while `lastIn` refers to `b`.
 
 
 ## Example
