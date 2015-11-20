@@ -1,7 +1,7 @@
 IVYPool
 =======
 
-A pool factory for iOS. Store, get and create objects on demand.
+A thread safe pool factory for iOS. Store, get and create objects on demand.
 
 
 ### Installation

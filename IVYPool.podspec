@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name          = "IVYPool"
     s.version       = "0.1"
-    s.summary       = "Pool factory"
+    s.summary       = "A thread safe pool factory for iOS. Store, get and create objects on demand."
     s.homepage      = "https://bitbucket.org/agens/ivypool"
     s.license       = {
     	:type => 'MIT',
