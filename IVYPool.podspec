@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.name          = "IVYPool"
     s.version       = "0.1"
     s.summary       = "A thread safe pool factory for iOS. Store, get and create objects on demand."
-    s.homepage      = "https://bitbucket.org/agens/ivypool"
+    s.homepage      = "https://github.com/hfossli/IVYPool"
     s.license       = {
     	:type => 'MIT',
     	:file => 'LICENSE'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     	"Håvard Fossli" => "hfossli@agens.no"
     	}
     s.source        = {
-        :git => "git@bitbucket.org:agens/ivypool.git",
+        :git => "https://github.com/hfossli/IVYPool.git",
         :tag => s.version.to_s
         }
     s.frameworks    = 'Foundation'
