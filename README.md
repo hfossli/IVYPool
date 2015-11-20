@@ -6,25 +6,25 @@ A thread safe pool factory for iOS. Store, get and create objects on demand.
 
 ### Installation
 
-```objective-c
+```objc
 pod 'IVYPool'
 ```
 
 ##### Import in swift
 
-```objective-c
+```objc
 import IVYPool
 ```
 
 ##### Import in Objective-C
 
-```objective-c
+```objc
 #import <IVYPool/IVYPool.h>
 ```
 
 ## API
 
-```objective-c
+```objc
 ...
 @property (nonatomic, copy, readwrite) id (^createBlock)(void);
 @property (nonatomic, assign, readwrite) NSUInteger capacity;
@@ -70,7 +70,7 @@ import IVYPool
 
 In most cases I recommend creating a simple facade. In this case IVYPagerReusePool owns an IVYPool and creates a clear and concise API.
 
-```objective-c
+```objc
 @interface IVYPagerReusePool : NSObject
 
 - (void)registerPageClass:(Class)pageClass forReuseIdentifier:(NSString *)reuseIdentifier;
@@ -86,7 +86,6 @@ In most cases I recommend creating a simple facade. In this case IVYPagerReusePo
 
 @end
 ```
-
 
 
 [![Agens | Digital craftsmanship](http://static.agens.no/images/agens_logo_w_slogan_avenir_small.png)](http://agens.no/)
