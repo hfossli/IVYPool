@@ -1,0 +1,17 @@
+PODS:
+  - Expecta (1.0.5)
+  - IVYPool (0.1)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0.2)
+  - IVYPool (from `../IVYPool.podspec`)
+
+EXTERNAL SOURCES:
+  IVYPool:
+    :path: "../IVYPool.podspec"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  IVYPool: cbe7b99586fa845781f36aa1adca34fa6a570d45
+
+COCOAPODS: 0.39.0

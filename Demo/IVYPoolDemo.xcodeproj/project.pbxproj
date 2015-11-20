@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		970937D2222DCB11F8DC0B63 /* libPods-IVYPoolDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D54986495F47DDD63A882F /* libPods-IVYPoolDemoTests.a */; };
+		A34FAE281BFF2D0800CBAAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE271BFF2D0800CBAAEA /* main.m */; };
+		A34FAE2B1BFF2D0800CBAAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE2A1BFF2D0800CBAAEA /* AppDelegate.m */; };
+		A34FAE2E1BFF2D0800CBAAEA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE2D1BFF2D0800CBAAEA /* MasterViewController.m */; };
+		A34FAE311BFF2D0800CBAAEA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE301BFF2D0800CBAAEA /* DetailViewController.m */; };
+		A34FAE341BFF2D0800CBAAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FAE321BFF2D0800CBAAEA /* Main.storyboard */; };
+		A34FAE361BFF2D0800CBAAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34FAE351BFF2D0800CBAAEA /* Assets.xcassets */; };
+		A34FAE391BFF2D0800CBAAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34FAE371BFF2D0800CBAAEA /* LaunchScreen.storyboard */; };
+		A34FAE441BFF2D0800CBAAEA /* IVYPoolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE431BFF2D0800CBAAEA /* IVYPoolDemoTests.m */; };
+		A34FAE501BFF2DC700CBAAEA /* IVYPoolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FAE4F1BFF2DC700CBAAEA /* IVYPoolTest.m */; };
+		C8298BB9F1D8429DC95BD1C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFB06C642FC7F58B5D66598 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34FAE401BFF2D0800CBAAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34FAE1B1BFF2D0800CBAAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34FAE221BFF2D0800CBAAEA;
+			remoteInfo = IVYPoolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57D54986495F47DDD63A882F /* libPods-IVYPoolDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IVYPoolDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		581068A282EE3F98A9257855 /* Pods-IVYPoolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVYPoolDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IVYPoolDemoTests/Pods-IVYPoolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C8EC164CB7CB97405E1667F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A34FAE231BFF2D0800CBAAEA /* IVYPoolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVYPoolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34FAE271BFF2D0800CBAAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A34FAE291BFF2D0800CBAAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A34FAE2A1BFF2D0800CBAAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A34FAE2C1BFF2D0800CBAAEA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A34FAE2D1BFF2D0800CBAAEA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A34FAE2F1BFF2D0800CBAAEA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A34FAE301BFF2D0800CBAAEA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A34FAE331BFF2D0800CBAAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34FAE351BFF2D0800CBAAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34FAE381BFF2D0800CBAAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34FAE3A1BFF2D0800CBAAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34FAE3F1BFF2D0800CBAAEA /* IVYPoolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IVYPoolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34FAE431BFF2D0800CBAAEA /* IVYPoolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVYPoolDemoTests.m; sourceTree = "<group>"; };
+		A34FAE451BFF2D0800CBAAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34FAE4F1BFF2DC700CBAAEA /* IVYPoolTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVYPoolTest.m; sourceTree = "<group>"; };
+		B4DE86F8E836A16480D76384 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2E568444032677730F5E31 /* Pods-IVYPoolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVYPoolDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IVYPoolDemoTests/Pods-IVYPoolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFB06C642FC7F58B5D66598 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34FAE201BFF2D0800CBAAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8298BB9F1D8429DC95BD1C2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FAE3C1BFF2D0800CBAAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970937D2222DCB11F8DC0B63 /* libPods-IVYPoolDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAE3D8BBCE60E251F54C9BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4DE86F8E836A16480D76384 /* Pods.debug.xcconfig */,
+				5C8EC164CB7CB97405E1667F /* Pods.release.xcconfig */,
+				CE2E568444032677730F5E31 /* Pods-IVYPoolDemoTests.debug.xcconfig */,
+				581068A282EE3F98A9257855 /* Pods-IVYPoolDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A34FAE1A1BFF2D0800CBAAEA = {
+			isa = PBXGroup;
+			children = (
+				A34FAE251BFF2D0800CBAAEA /* IVYPoolDemo */,
+				A34FAE421BFF2D0800CBAAEA /* IVYPoolDemoTests */,
+				A34FAE241BFF2D0800CBAAEA /* Products */,
+				9BAE3D8BBCE60E251F54C9BC /* Pods */,
+				F00CB031B593D646FBBF66CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A34FAE241BFF2D0800CBAAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34FAE231BFF2D0800CBAAEA /* IVYPoolDemo.app */,
+				A34FAE3F1BFF2D0800CBAAEA /* IVYPoolDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34FAE251BFF2D0800CBAAEA /* IVYPoolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A34FAE291BFF2D0800CBAAEA /* AppDelegate.h */,
+				A34FAE2A1BFF2D0800CBAAEA /* AppDelegate.m */,
+				A34FAE2C1BFF2D0800CBAAEA /* MasterViewController.h */,
+				A34FAE2D1BFF2D0800CBAAEA /* MasterViewController.m */,
+				A34FAE2F1BFF2D0800CBAAEA /* DetailViewController.h */,
+				A34FAE301BFF2D0800CBAAEA /* DetailViewController.m */,
+				A34FAE321BFF2D0800CBAAEA /* Main.storyboard */,
+				A34FAE351BFF2D0800CBAAEA /* Assets.xcassets */,
+				A34FAE371BFF2D0800CBAAEA /* LaunchScreen.storyboard */,
+				A34FAE3A1BFF2D0800CBAAEA /* Info.plist */,
+				A34FAE4E1BFF2DC700CBAAEA /* Tests */,
+				A34FAE261BFF2D0800CBAAEA /* Supporting Files */,
+			);
+			path = IVYPoolDemo;
+			sourceTree = "<group>";
+		};
+		A34FAE261BFF2D0800CBAAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A34FAE271BFF2D0800CBAAEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A34FAE421BFF2D0800CBAAEA /* IVYPoolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34FAE431BFF2D0800CBAAEA /* IVYPoolDemoTests.m */,
+				A34FAE451BFF2D0800CBAAEA /* Info.plist */,
+			);
+			path = IVYPoolDemoTests;
+			sourceTree = "<group>";
+		};
+		A34FAE4E1BFF2DC700CBAAEA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A34FAE4F1BFF2DC700CBAAEA /* IVYPoolTest.m */,
+			);
+			name = Tests;
+			path = ../../Tests;
+			sourceTree = "<group>";
+		};
+		F00CB031B593D646FBBF66CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBFB06C642FC7F58B5D66598 /* libPods.a */,
+				57D54986495F47DDD63A882F /* libPods-IVYPoolDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34FAE221BFF2D0800CBAAEA /* IVYPoolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34FAE481BFF2D0800CBAAEA /* Build configuration list for PBXNativeTarget "IVYPoolDemo" */;
+			buildPhases = (
+				D4E681CAB8337F6ED0A2BF6B /* Check Pods Manifest.lock */,
+				A34FAE1F1BFF2D0800CBAAEA /* Sources */,
+				A34FAE201BFF2D0800CBAAEA /* Frameworks */,
+				A34FAE211BFF2D0800CBAAEA /* Resources */,
+				7781712F07FA1BD4DFE4EAC2 /* Embed Pods Frameworks */,
+				7D1A26CA20B5CC420235E17C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IVYPoolDemo;
+			productName = IVYPoolDemo;
+			productReference = A34FAE231BFF2D0800CBAAEA /* IVYPoolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34FAE3E1BFF2D0800CBAAEA /* IVYPoolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34FAE4B1BFF2D0800CBAAEA /* Build configuration list for PBXNativeTarget "IVYPoolDemoTests" */;
+			buildPhases = (
+				C33B5B1CE1593F6CBF14ADAB /* Check Pods Manifest.lock */,
+				A34FAE3B1BFF2D0800CBAAEA /* Sources */,
+				A34FAE3C1BFF2D0800CBAAEA /* Frameworks */,
+				A34FAE3D1BFF2D0800CBAAEA /* Resources */,
+				467BEF8BBE13FDAA503E1DA2 /* Embed Pods Frameworks */,
+				388F92D28DF028D3386DB3FB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34FAE411BFF2D0800CBAAEA /* PBXTargetDependency */,
+			);
+			name = IVYPoolDemoTests;
+			productName = IVYPoolDemoTests;
+			productReference = A34FAE3F1BFF2D0800CBAAEA /* IVYPoolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34FAE1B1BFF2D0800CBAAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Håvard Fossli";
+				TargetAttributes = {
+					A34FAE221BFF2D0800CBAAEA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A34FAE3E1BFF2D0800CBAAEA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A34FAE221BFF2D0800CBAAEA;
+					};
+				};
+			};
+			buildConfigurationList = A34FAE1E1BFF2D0800CBAAEA /* Build configuration list for PBXProject "IVYPoolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34FAE1A1BFF2D0800CBAAEA;
+			productRefGroup = A34FAE241BFF2D0800CBAAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34FAE221BFF2D0800CBAAEA /* IVYPoolDemo */,
+				A34FAE3E1BFF2D0800CBAAEA /* IVYPoolDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34FAE211BFF2D0800CBAAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FAE391BFF2D0800CBAAEA /* LaunchScreen.storyboard in Resources */,
+				A34FAE361BFF2D0800CBAAEA /* Assets.xcassets in Resources */,
+				A34FAE341BFF2D0800CBAAEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FAE3D1BFF2D0800CBAAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		388F92D28DF028D3386DB3FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IVYPoolDemoTests/Pods-IVYPoolDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467BEF8BBE13FDAA503E1DA2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IVYPoolDemoTests/Pods-IVYPoolDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7781712F07FA1BD4DFE4EAC2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1A26CA20B5CC420235E17C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33B5B1CE1593F6CBF14ADAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E681CAB8337F6ED0A2BF6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34FAE1F1BFF2D0800CBAAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FAE2B1BFF2D0800CBAAEA /* AppDelegate.m in Sources */,
+				A34FAE2E1BFF2D0800CBAAEA /* MasterViewController.m in Sources */,
+				A34FAE281BFF2D0800CBAAEA /* main.m in Sources */,
+				A34FAE311BFF2D0800CBAAEA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34FAE3B1BFF2D0800CBAAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34FAE501BFF2DC700CBAAEA /* IVYPoolTest.m in Sources */,
+				A34FAE441BFF2D0800CBAAEA /* IVYPoolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34FAE411BFF2D0800CBAAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34FAE221BFF2D0800CBAAEA /* IVYPoolDemo */;
+			targetProxy = A34FAE401BFF2D0800CBAAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34FAE321BFF2D0800CBAAEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34FAE331BFF2D0800CBAAEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34FAE371BFF2D0800CBAAEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34FAE381BFF2D0800CBAAEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34FAE461BFF2D0800CBAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34FAE471BFF2D0800CBAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34FAE491BFF2D0800CBAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DE86F8E836A16480D76384 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IVYPoolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.IVYPoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A34FAE4A1BFF2D0800CBAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8EC164CB7CB97405E1667F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IVYPoolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.IVYPoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A34FAE4C1BFF2D0800CBAAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2E568444032677730F5E31 /* Pods-IVYPoolDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IVYPoolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.IVYPoolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVYPoolDemo.app/IVYPoolDemo";
+			};
+			name = Debug;
+		};
+		A34FAE4D1BFF2D0800CBAAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581068A282EE3F98A9257855 /* Pods-IVYPoolDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IVYPoolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.IVYPoolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IVYPoolDemo.app/IVYPoolDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34FAE1E1BFF2D0800CBAAEA /* Build configuration list for PBXProject "IVYPoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FAE461BFF2D0800CBAAEA /* Debug */,
+				A34FAE471BFF2D0800CBAAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34FAE481BFF2D0800CBAAEA /* Build configuration list for PBXNativeTarget "IVYPoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FAE491BFF2D0800CBAAEA /* Debug */,
+				A34FAE4A1BFF2D0800CBAAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34FAE4B1BFF2D0800CBAAEA /* Build configuration list for PBXNativeTarget "IVYPoolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34FAE4C1BFF2D0800CBAAEA /* Debug */,
+				A34FAE4D1BFF2D0800CBAAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A34FAE1B1BFF2D0800CBAAEA /* Project object */;
+}
