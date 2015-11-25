@@ -80,7 +80,7 @@ import IVYPool
 
 ## Terminology
 
-If `a` and `b` were added to the pool. `firstIn` refers `a` while `lastIn` refers to `b`.
+If `a` and `b` were added to the pool in that order (a first) then `firstIn` refers `a` while `lastIn` refers to `b`.
 
 
 ## Example
